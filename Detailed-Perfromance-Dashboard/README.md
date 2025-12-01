@@ -26,4 +26,4 @@ Same steps as Executive Dashboard:
 4. Save
 
 ### Screenshots
-Store images in `/screenshots/` folder.
+Refer to "Detailed_Performance_Workbook Screenshot.png".
