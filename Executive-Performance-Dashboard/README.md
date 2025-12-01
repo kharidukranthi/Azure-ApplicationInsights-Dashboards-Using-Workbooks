@@ -1,4 +1,4 @@
-# Detailed Performance & Dependency Analysis Workbook
+# Executive Performance & Dependency Analysis Workbook
 
 ### Overview
 A deep-dive engineering dashboard that helps identify:
