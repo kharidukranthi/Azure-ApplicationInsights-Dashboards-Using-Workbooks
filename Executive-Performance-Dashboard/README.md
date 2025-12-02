@@ -56,4 +56,47 @@ Below is a snapshot of the Executive Workbook:
 1. Open Azure Portal → **Application Insights**  
 2. Navigate to **Workbooks**  
 3. Select **New → Advanced Editor**  
-4. Paste the JSON from:  
+4. Paste the JSON from:
+
+##Executive_Performance_Workbook.json##
+
+5. Update all placeholders (search for `{YOUR-`):  
+- Subscription ID  
+- Resource group  
+- Application Insights name  
+- Optional display name  
+6. Click **Apply** → Save the workbook.
+
+---
+
+## ⚙️ Parameters Used
+
+| Parameter Name | Type | Purpose |
+|----------------|------|---------|
+| **Show** | Dropdown | Select failure categories |
+| **In** | Multiselect | Filter by operation/request name |
+| **OverTimeRange** | Time picker | Select the primary analysis window |
+| **UseComparisonTimeRangeOf** | Auto | Select baseline comparison window |
+| **RequestFilters** | Multiselect | Filter unique failure patterns |
+| **IncludeResultCodes** | Multiselect | 400/500 segmentation |
+
+---
+
+## 📁 Folder Contents
+
+<img width="504" height="164" alt="image" src="https://github.com/user-attachments/assets/125174f2-2b10-44d5-b27d-b9f0082c123c" />
+
+
+---
+
+## 📝 Notes
+- This dashboard is intentionally **short and executive-focused**.  
+- For deeper RCA or dependency insights, use the **Detailed Performance Workbook**.  
+- All filters are designed to help executives understand **trend direction**, not raw data volume.
+
+---
+
+If you'd like enhancements (dark mode version, heatmaps, alert integration), feel free to submit feedback or PRs!
+
+
+
