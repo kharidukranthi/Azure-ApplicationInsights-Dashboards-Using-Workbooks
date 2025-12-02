@@ -32,16 +32,6 @@ These workbooks are:
 
 <img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/8888a30c-0a26-4b07-ae5a-2d1d3b78a33e" />
 
-<details>
-  <summary>📁 Click to view repository structure</summary>
-
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/<YOUR-USERNAME>/<REPO>/main/assets/repo-structure.png" width="600">
-  </p>
-
-</details>
-
-
 ---
 
 # 📘 Executive Dashboard
