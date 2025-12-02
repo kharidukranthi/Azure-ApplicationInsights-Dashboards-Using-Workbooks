@@ -58,7 +58,7 @@ Below is a snapshot of the Executive Workbook:
 3. Select **New → Advanced Editor**  
 4. Paste the JSON from:
 
-##Executive_Performance_Workbook.json##
+*Executive_Performance_Workbook.json*
 
 5. Update all placeholders (search for `{YOUR-`):  
 - Subscription ID  
