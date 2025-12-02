@@ -46,6 +46,9 @@ Azure-ApplicationInsights-Dashboards-Using-Workbooks/
 └── README.md <-- (this file)
 
 
+<img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/8888a30c-0a26-4b07-ae5a-2d1d3b78a33e" />
+
+
 ---
 
 # 📘 Executive Dashboard
