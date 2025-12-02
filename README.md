@@ -30,22 +30,6 @@ These workbooks are:
 
 ## 📁 Repository Structure
 
-Azure-ApplicationInsights-Dashboards-Using-Workbooks/
-│
-├── Executive-Performance-Dashboard/
-│ ├── Executive_Performance_Workbook.json
-│ ├── Executive_Performance_Workbook_Screenshot.png
-│ └── README.md
-│
-├── Detailed-Performance-Dashboard/
-│ ├── Detailed_Performance_Workbook.json
-│ ├── Detailed_Performance_Workbook_Screenshot.png
-│ └── README.md
-│
-├── LICENSE
-└── README.md <-- (this file)
-
-
 <img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/8888a30c-0a26-4b07-ae5a-2d1d3b78a33e" />
 
 
