@@ -1,167 +1,144 @@
-📊 Azure Application Insights Dashboards Using Azure Monitor Workbooks
+# 📊 Azure Application Insights Dashboards Using Azure Monitor Workbooks  
 Enterprise-grade Performance, Failure & Dependency Analysis Templates for Any Application Insights Resource
-🚀 Overview
 
-This repository contains Azure Monitor Workbooks designed to provide both Executive-level and Engineering-level visibility into:
+---
 
-API performance
+## 🚀 Overview
 
-Failures (new vs existing)
+This repository contains **Azure Monitor Workbooks** designed to provide both Executive-level and Engineering-level visibility into:
 
-Response time trends
+- API performance  
+- Failures (new vs existing)  
+- Response time trends  
+- Dependency bottlenecks  
+- User impact  
+- Traffic patterns  
 
-Dependency bottlenecks
+All dashboards are built using **Azure Application Insights** and **Kusto Query Language (KQL)**.
 
-User impact
+### Why these workbooks?
 
-Traffic patterns
+These workbooks are:  
 
-All dashboards are built using Azure Application Insights and Kusto Query Language (KQL).
+- **Fully reusable** → Copy/paste JSON into any Application Insights resource  
+- **Parameter-driven** → Auto-adjust baselines, filters, time ranges  
+- **Cloud-agnostic** → No hardcoded resource IDs  
+- **Production-tested** → Built for real enterprise monitoring  
+- **Scalable** → Easily extended across microservices  
 
-These workbooks are:
+---
 
-Fully reusable → Copy/paste JSON into any Application Insights resource
+## 📁 Repository Structure
 
-Parameter-driven → Auto-adjust baselines, filters, time ranges
-
-Cloud-agnostic → No hardcoded resource IDs
-
-Production-tested → Built for real enterprise monitoring
-
-Scalable → Easily extended across microservices
-
-📁 Repository Structure
 Azure-ApplicationInsights-Dashboards-Using-Workbooks/
 │
 ├── Executive-Performance-Dashboard/
-│   ├── Executive_Performance_Workbook.json
-│   ├── Executive_Performance_Workbook Screenshot.png
-│   └── README.md
+│ ├── Executive_Performance_Workbook.json
+│ ├── Executive_Performance_Workbook_Screenshot.png
+│ └── README.md
 │
-├── Detailed-Perfromance-Dashboard/
-│   ├── Detailed_Performance_Workbook.JSON
-│   ├── Detailed_Performance_Workbook Screenshot.png
-│   └── README.md
+├── Detailed-Performance-Dashboard/
+│ ├── Detailed_Performance_Workbook.json
+│ ├── Detailed_Performance_Workbook_Screenshot.png
+│ └── README.md
 │
 ├── LICENSE
-└── README.md   <-- (this file)
+└── README.md <-- (this file)
 
 
-Each dashboard folder contains:
+---
 
-The Workbook JSON template
+# 📘 Executive Dashboard
 
-A dashboard-specific README
+### 📍 File  
+`/Executive-Performance-Dashboard/Executive_Performance_Workbook.json`
 
-A sample screenshot
+### 🧭 Summary  
+An executive-level dashboard focusing on:  
+- New vs existing failures  
+- Request trends  
+- Result code breakdown  
+- Baseline comparison windows (7d, 14d, 28d, 60d)  
+- Average response times (Now vs Baseline)  
 
-📈 Dashboards Included
-1️⃣ Executive Performance Dashboard
+👉 View details inside the folder’s own README.
 
-High-level KPI-focused visualization intended for:
+---
 
-Leadership
+# 📘 Detailed Engineering Dashboard
 
-Product owners
+### 📍 File  
+`/Detailed-Performance-Dashboard/Detailed_Performance_Workbook.json`
 
-Architecture teams
+### 🧭 Summary  
+A deep-dive engineering dashboard for:  
+- p50 / p95 / p99 latency  
+- Operation-level performance  
+- Dependency correlation  
+- Throttling analysis  
+- Error patterns  
+- Drilldowns  
 
-Daily health checks
+👉 View details inside the folder’s own README.
 
-Features:
+---
 
-New vs Existing Failure Analysis
+# 🛠️ Deployment Instructions
 
-Response Time (now vs baseline)
+To deploy any workbook:
 
-Result-code segmentation (400s, 500s)
+1. Open **Azure Portal**  
+2. Go to **Application Insights → Workbooks**  
+3. Click **New**  
+4. Click **Advanced Editor**  
+5. Paste JSON from this repository  
+6. Replace fields containing `{YOUR-...}`  
+7. Save the workbook  
 
-Trend charts
+That’s it — dashboard ready.
 
-Per-operation filtering
+---
 
-➡️ Folder:
-Executive-Performance-Dashboard/
-
-2️⃣ Detailed Engineering Dashboard
-
-Deep-dive investigation dashboard for:
-
-Developers
-
-SRE / DevOps Teams
-
-Performance Engineers
-
-Features:
-
-p50 / p95 / p99 latency
-
-Operation-level heatmaps
-
-Slow dependency detection
-
-Error spikes
-
-Drill-down workflows
-
-End-to-end request investigation
-
-➡️ Folder:
-Detailed-Perfromance-Dashboard/
-
-🛠️ How to Install These Workbooks
-
-Open Azure Portal
-
-Go to Application Insights → Workbooks
-
-Click New → Advanced Editor
-
-Paste the JSON from the dashboard folder
-
-Replace required placeholders (search for {YOUR )
-
-Save the workbook with your own name
-
-Done! Your dashboard is live.
-
-🔍 Replace These Values Before Use
-
-Look for values like:
-
-{YOUR-SUBSCRIPTIONID}
-{YOUR-RESOURCEGROUPNAME}
-{YOUR-RESOURCENAME}
-{YOUR-APPNAME}
-
+# 🔧 Replace Environment-specific Values
 
 Search for:
 
 {YOUR
 
 
-…and update them with your environment.
+Replace with:
+- Subscription ID  
+- Resource group  
+- Application Insights resource  
+- App or API name  
 
-📷 Screenshots
-Executive Dashboard
+This makes the dashboards instantly reusable.
 
-Detailed Performance Dashboard
+---
 
-🤝 Contributions
+# 🖼️ Screenshots
 
-Feel free to:
+Screenshots are included inside each dashboard folder:
 
-Submit issues
+- `/Executive-Performance-Dashboard/screenshots/`
+- `/Detailed-Performance-Dashboard/screenshots/`
 
-Suggest enhancements
+---
 
-Create pull requests
+# 👏 Contributing
 
-Add your own Azure Workbooks
+Pull requests are welcome!
 
-This project aims to become a community hub for reusable Azure Monitor Workbooks.
+You can contribute:
+- New visual modules  
+- Additional KQL insights  
+- More reusable templates  
+- Fixes and enhancements  
 
-📝 License
+---
 
-This repository uses the MIT License, allowing personal and commercial use.
+# 📄 License
+
+MIT License – free to use, modify, and distribute.
+
+---
