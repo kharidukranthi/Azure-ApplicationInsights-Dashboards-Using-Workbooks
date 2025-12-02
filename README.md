@@ -1,5 +1,10 @@
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Azure Monitor](https://img.shields.io/badge/Azure-Monitor-blue)
+![KQL](https://img.shields.io/badge/Kusto-KQL-lightgrey)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 # 📊 Azure Application Insights Dashboards Using Azure Monitor Workbooks  
-Enterprise-grade Performance, Failure & Dependency Analysis Templates for Any Application Insights Resource
+### Enterprise-grade Performance, Failure & Dependency Analysis Templates for Any Application Insights Resource
 
 ---
 
